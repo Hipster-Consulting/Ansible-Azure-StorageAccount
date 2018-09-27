@@ -5,8 +5,10 @@ This Repo Creates Azure Storage Accounts. Azure Credentials is managed by Tower 
 
 ## Required Variables
 
+```javascript
 {
 Azure_Resource_Group: ''
 Azure_Storage_Group: ''
 Azure_Account_Type: ''
 }
+```
