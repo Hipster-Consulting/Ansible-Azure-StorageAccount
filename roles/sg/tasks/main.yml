@@ -2,6 +2,6 @@
 
 - name: Create Azure Storage Account
   azure_rm_storageaccount:
-    resource_group: {{Azure_Resource_Group}}
-    name: {{Azure_Storage_Group}}
-    account_type: {{Azure_Account_Type}}
+    resource_group: '{{Azure_Resource_Group}}'
+    name: '{{Azure_Storage_Group}}'
+    account_type: '{{Azure_Account_Type}}'
